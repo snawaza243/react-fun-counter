@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+    color: #fff
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-size: 20px; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+#container-box {
+    background-color: #7fffd4;
+    padding: 20px;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #000;
+
+}
+
+#container-box:hover {
+    box-shadow: 0px 0px 30px #7fffd4;
+    transition: 0.2s;
+
+}
+
+#result {
+    /* font-size: 20px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #8804df;
+    border: 2px dotted #000;
+    color: #fff
+}
+
+button {
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    justify-content: space-around;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: blue;
+    color: #fff;
+    transition: 0.2s;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+
+
+}
+
+button:active {
+    background-color: red
+}
+
+
+
+
+.button2 {
+    font-size: auto;
+    width: 55px;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 45px;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 50%;
+    justify-content: space-around;
+    transition: 0.3s;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+.button2:hover {
+    background-color: blue;
+    color: #fff;
+    transition: 0.2s;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+
+
+}
+
+.button2:active {
+    background-color: red
+}
